@@ -24,6 +24,7 @@ def prediction(image_path):
 
 
 app = Flask(__name__)
+application=app
 CORS(app)
 
 @app.route('/', methods=['GET'])
